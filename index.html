@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✨ Darbar-e-Panjatan Paak · creative vibe</title>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+  <!-- glowing cursor effect -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header>
+    <div class="logo"><span>پنچتن پاک</span> DARBAR·PANJATAN</div>
+    <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">🏠 Home</a>
+      <a href="#compass">🧭 Compass</a>
+      <a href="#vision">✨ Vision</a>
+      <a href="#initiatives">🌿 Initiatives</a>
+      <a href="#governance">🔍 Governance</a>      <!-- added exactly -->
+      <a href="#join">🤲 Join</a>
+      <a href="#gallery">📸 Gallery</a>
+      <a href="#calendar">📅 Calendar</a>
+      <a href="#contact">💬 Contact</a>
+    </nav>
+  </header>
+
+  <!-- floating background blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <!-- HOME / INTRO (section matches new structure) -->
+  <section id="home">
+    <div class="container">
+      <h1 style="font-size:5rem; line-height:1.1; font-weight:700; background: linear-gradient(135deg, #0d5f4b, #31997b); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">Darbar-e-Panjatan<br>Paak Trust ✦ Hazaribagh</h1>
+      <div class="tagline-big"><i class="fas fa-star-and-crescent"></i> A Sanctuary of Light · A Movement of Love</div>
+      <p style="font-size:1.5rem; max-width:700px; background: rgba(200,250,230,0.5); padding:1rem 2rem; border-radius:80px;">Service in the name of the Holy Five ﷺ</p>
+
+      <div style="display:flex; gap:1.5rem; flex-wrap:wrap; margin:3rem 0;">
+        <a href="#join" class="btn-awesome"><i class="fas fa-hand-holding-heart"></i> Experience the Journey</a>
+        <a href="#initiatives" class="btn-awesome" style="background:#e3ffee; color:#1b5f4b;">Serve with Us</a>
+      </div>
+
+      <!-- enhanced intro block with added detail -->
+      <div style="background: #e2ffee; border-radius: 120px 30px 120px 30px; padding: 2.5rem; margin:3rem 0;">
+        <h3 style="font-size:2.8rem;">Welcome to a Living Testament of Love</h3>
+        <p style="font-size:1.3rem">Darbar-e-Panjatan Paak Trust is the heart of Hazaribagh's spiritual and social conscience — a living testament to the eternal love for Muhammad ﷺ and his Holy Household (Ahle Bait). We are a community of hearts united in devotion, translating the supreme values of the Panjatan Paak into tangible acts of compassion, justice, and enlightenment.</p>
+        <p style="font-size:1.3rem; margin-top:1rem;">Here, faith is alive. It feeds the hungry, heals the sick, educates the curious, and comforts the weary. Every action is an offering (Nazrana) at the sacred threshold of those who taught humanity how to live with purpose, dignity, and unconditional love.</p>
+        <div style="background: #b7ebd7; border-radius: 60px; padding:1.2rem; margin-top:1.5rem;">
+          <i class="fas fa-quote-right" style="color:#1b5b49;"></i> True Ishq-e-Ahle Bait is proven not only in mourning but in building; not only in remembrance but in action. Darbar-e-Panjatan Paak is where spiritual reverence meets social revolution.
+        </div>
+        <p style="margin-top:1rem;"><strong>Our spiritual lineage:</strong> Connected to the ethos of Sayyed Haji Waris Ali Shah (R.A.) of the Warsiyya tradition, we propagate the message of love for Ahl-e-Bait through service to all of humanity. To join this Darbar is to become part of this sacred spiritual connection (Nisbat).</p>
+      </div>
+
+      <!-- pillar cards (enriched with details) -->
+      <div class="pillar-grid">
+        <div class="pillar-card"><i class="fas fa-mosque"></i><h3>Spiritual Sanctuary</h3><p>Majalis, Dars-e-Quran, Ramadan retreats</p></div>
+        <div class="pillar-card"><i class="fas fa-hand-holding-heart"></i><h3>Humanitarian Arm</h3><p>Langar-e-Fatima · Dawakhanah-e-Zahra · Bait-ul-Maal-e-Ali</p></div>
+        <div class="pillar-card"><i class="fas fa-dove"></i><h3>Community Harmony</h3><p>Interfaith dialogues · Green Hussaini · Disaster response</p></div>
+        <div class="pillar-card"><i class="fas fa-graduation-cap"></i><h3>Generational Light</h3><p>Ilm-e-Hussaini · scholarships · library</p></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+  </section>
+
+  <!-- SPIRITUAL COMPASS (PAGE 2) -->
+ <section id="compass">
+    <div class="container">
+      <h2>🧭 Our Spiritual Compass</h2>
+      <p style="font-size:2rem; font-weight:300;">the holy personalities – click for full details</p>
+      
+      <!-- TWO SPECIAL CARDS: PROPHET MUHAMMAD & SAYYIDA FATIMAH -->
+      <div class="special-two-cards">
+        <div class="compass-big-card" onclick="openPopup('prophetMuhammad')">
+          <div class="compass-img-box">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23b7e6d4'/%3E%3Ctext x='50' y='65' font-size='44' text-anchor='middle' fill='%231d5b47'%3Eﷺ%3C/text%3E%3C/svg%3E" alt="Prophet Muhammad">
+          </div>
+          <h3>Prophet Muhammad</h3>
+          <span class="title-small">al-Mustafa (pbuh&hp)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('fatimah')">
+          <div class="compass-img-box">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23f0d9e0'/%3E%3Ctext x='50' y='65' font-size='44' text-anchor='middle' fill='%23942b5c'%3Eف%3C/text%3E%3C/svg%3E" alt="Fatimah">
+          </div>
+          <h3>Sayyida Fatimah</h3>
+          <span class="title-small">al-Zahra (p)</span>
+        </div>
+      </div>
+
+      <!-- BRIEF BIOGRAPHY OF 12 IMAMS INTRODUCTION -->
+      <div class="bio-intro-box">
+        <h3 style="font-size:2rem; margin-bottom:1rem; color:#0b4634;">BRIEF BIOGRAPHY OF 12 IMAMS</h3>
+        <p>The Imams are twelve members of the Ahl al-Bayt of the Prophet (PBUH&HF) who are the successors of the Prophet and after him the Imam of the Islamic community. The first Imam is Imam Ali (AS) and the other Imams are his children and grandchildren and Sayyida Fatimah (SA).</p>
+        <p>They have been appointed to the Imamate by Allah (SWT) and have characteristics such as infallibility, superiority, knowledge of the unseen and the right of intercession. Imams (AS) have all the duties of the Prophet (PBUH) except receiving revelation and bringing Sharia.</p>
+        <p>Eleven Imams were martyred, and the last of them, the Promised Mahdi (AJTF), is absent. He will reappear in the future and fill the earth with justice.</p>
+      </div>
+
+      <!-- 12 IMAMS CARDS GRID -->
+      <div class="compass-grid-large" id="compassBigGrid">
+        <div class="compass-big-card" onclick="openPopup('imamAli')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23d4e6b7'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='%233b5e1a'%3Eع%3C/text%3E%3C/svg%3E" alt="Imam Ali"></div>
+          <h3>Imam Ali</h3><span class="title-small">Amir al-Mumineen (as)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('imamHassan')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23cde6d0'/%3E%3Ctext x='50' y='65' font-size='42' text-anchor='middle' fill='%231f5b3a'%3Eح%3C/text%3E%3C/svg%3E" alt="Imam Hassan"></div>
+          <h3>Imam al-Hassan</h3><span class="title-small">al-Mujtaba (as)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('imamHussain')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23e6d0cd'/%3E%3Ctext x='50' y='65' font-size='42' text-anchor='middle' fill='%239b2b2b'%3Eح%3C/text%3E%3C/svg%3E" alt="Imam Hussain"></div>
+          <h3>Imam al-Hussain</h3><span class="title-small">Sayyid al-Shuhada (as)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('imamSajjad')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23d9e6f2'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='%231b3b5c'%3Eز%3C/text%3E%3C/svg%3E" alt="Imam Sajjad"></div>
+          <h3>Imam al-Sajjad</h3><span class="title-small">Zayn al-Abideen (as)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('imamBaqir')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23f2e6d9'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='%235c4b1b'%3Eب%3C/text%3E%3C/svg%3E" alt="Imam Baqir"></div>
+          <h3>Imam al-Baqir</h3><span class="title-small">Splitter of Knowledge (as)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('imamSadiq')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23d9f2e0'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='%231b5c3b'%3Eص%3C/text%3E%3C/svg%3E" alt="Imam Sadiq"></div>
+          <h3>Imam al-Sadiq</h3><span class="title-small">al-Sadiq (as)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('imamKadhim')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23e0d9f2'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='%23331b5c'%3Eك%3C/text%3E%3C/svg%3E" alt="Imam Kadhim"></div>
+          <h3>Imam al-Kadhim</h3><span class="title-small">Bab al-Hawa'ij (as)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('imamRidha')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23f2d9e6'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='%235c1b4b'%3Eر%3C/text%3E%3C/svg%3E" alt="Imam Ridha"></div>
+          <h3>Imam al-Ridha</h3><span class="title-small">al-Ridha (as)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('imamJawad')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23e6f2d9'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='%234b5c1b'%3Eج%3C/text%3E%3C/svg%3E" alt="Imam Jawad"></div>
+          <h3>Imam al-Jawad</h3><span class="title-small">al-Taqi (as)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('imamHadi')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23d9f2f2'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='%231b5c5c'%3Eه%3C/text%3E%3C/svg%3E" alt="Imam Hadi"></div>
+          <h3>Imam al-Hadi</h3><span class="title-small">al-Naqi (as)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('imamAskari')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23f2e6d9'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='%235c3b1b'%3Eع%3C/text%3E%3C/svg%3E" alt="Imam Askari"></div>
+          <h3>Imam al-Askari</h3><span class="title-small">al-Askari (as)</span>
+        </div>
+        <div class="compass-big-card" onclick="openPopup('imamMahdi')">
+          <div class="compass-img-box"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23d9d9f2'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='%231b1b5c'%3Eم%3C/text%3E%3C/svg%3E" alt="Imam Mahdi"></div>
+          <h3>Imam al-Mahdi</h3><span class="title-small">al-Hujjah (aj)</span>
+        </div>
+      </div>
+      
+      <!-- <div style="background:#ecfef3; border-radius:90px; padding:2rem; margin-top:2rem;">
+        <p style="font-size:1.4rem;"><strong>Prophet Muhammad ﷺ</strong> – The Perfect Model of Mercy (رَحْمَةً لِّلْعَالَمِينَ).</p>
+        <p style="font-size:1.4rem;"><strong>Imam Ali A.S.</strong> – The Gate to the City of Knowledge, the Lion of Justice.</p>
+        <p style="font-size:1.4rem;"><strong>Sayyida Fatima S.A.</strong> – The Radiant One, embodiment of purity, resilience, and divine grace.</p>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- POPUP MODAL -->
+  <div class="modal-overlay" id="personModal">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closePopup()"><i class="fas fa-times-circle"></i></button>
+      <img id="modalImage" class="modal-img-large" src="" alt="person image">
+      <div id="modalDetails" class="modal-details"></div>
+    </div>
+  </div>
+
+  <!-- VISION & MISSION (PAGE 3) -->
+  <section id="vision">
+    <div class="container">
+      <h2>✨ Vision & Mission</h2>
+      <div style="display:flex; gap:2rem; flex-wrap:wrap;">
+        <div style="flex:1; min-width:250px; background:#effff5; border-radius:90px; padding:2.5rem; animation: float 6s infinite;">
+          <i class="fas fa-eye" style="font-size:3rem;"></i>
+          <p style="font-size:1.5rem; margin-top:1rem;">To cultivate a community that mirrors the noble character (Akhlaq) of the Panjatan Paak — where every individual lives with faith, acts with justice, serves with compassion, and leads with wisdom.</p>
+        </div>
+        <div style=" min-width:300px;">
+          <h3 style="font-size:2rem;">Our Mission:</h3>
+          <ul style="list-style:none; columns:2; gap:10rem;">
+            <li><i class="fas fa-heart" style="color:#2a8b6f;"></i> Ignite with sincere love (Muhabbat)</li>
+            <li><i class="fas fa-balance-scale" style="color:#2a8b6f;"></i> Embody teachings: justice of Ali, patience of Fatima, peace of Hasan, sacrifice of Hussain</li>
+            <li><i class="fas fa-tree" style="color:#2a8b6f;"></i> Serve unconditionally (Khidmat-e-Khalq)</li>
+            <li><i class="fas fa-comment" style="color:#2a8b6f;"></i> Bridge divides through interfaith harmony</li>
+            <li><i class="fas fa-children" style="color:#2a8b6f;"></i> Empower generations with spiritual clarity</li>
+          </ul>
+        </div>
+      </div>
+      <!-- core values covenant -->
+      <div class="insight-box" style="margin-top:2.5rem;">
+        <h3 style="font-size:2rem;">Our Covenant: Core Values</h3>
+        <div class="value-grid">
+          <span class="value-badge">Ishq-e-Haqiqi</span>
+          <span class="value-badge">Khidmat-e-Khalq</span>
+          <span class="value-badge">Adl (Justice)</span>
+          <span class="value-badge">Ilm (Knowledge)</span>
+          <span class="value-badge">Amanat (Trust)</span>
+          <span class="value-badge">Wahdat (Unity)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INITIATIVES (PAGE 4) enriched with full detail -->
+  <section id="initiatives">
+    <div class="container">
+      <h2>🌱 Initiatives · Love In Action</h2>
+      <p style="font-size:1.8rem; margin-bottom:2rem;">Manifestations of Love: Turning Faith into Action</p>
+      <div class="initiative-grid">
+        <div class="initiative-item"><i class="fas fa-pray"></i><h3>Spiritual Sanctuary</h3>Majalis, Dars-e-Quran, Du'a, Ramadan retreats, commemorations</div>
+        <div class="initiative-item"><i class="fas fa-utensils"></i><h3>Langar-e-Fatima</h3>Perpetual kitchen of grace – nutritious meals with dignity</div>
+        <div class="initiative-item"><i class="fas fa-hospital"></i><h3>Dawakhanah-e-Zahra</h3>Free medical camps, healthcare, medicine distribution</div>
+        <div class="initiative-item"><i class="fas fa-hand-holding-heart"></i><h3>Bait-ul-Maal-e-Ali</h3>Support orphans, widows, families (rations, aid, relief)</div>
+        <div class="initiative-item"><i class="fas fa-book-open"></i><h3>Ilm-e-Hussaini</h3>Scholarships, library, skill workshops, tutoring</div>
+        <div class="initiative-item"><i class="fas fa-home"></i><h3>Amanat Housing</h3>Dignified housing & collective marriage assistance</div>
+        <div class="initiative-item"><i class="fas fa-handshake"></i><h3>Guldasta-e-Wahdat</h3>Interfaith dialogues, shared values, collective action</div>
+        <div class="initiative-item"><i class="fas fa-leaf"></i><h3>Green Hussaini</h3>Environment, tree plantations, cleanliness drives</div>
+        <div class="initiative-item"><i class="fas fa-thermometer-half"></i><h3>Winter warmth</h3>Blankets & warm clothing distribution</div>
+        <div class="initiative-item"><i class="fas fa-truck"></i><h3>Disaster response</h3>Rapid mobilization, calamity aid</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GOVERNANCE & TRANSPARENCY (new page 5) -->
+  <section id="governance">
+    <div class="container">
+      <h2>🔍 Governance & Transparency</h2>
+      <div style="background:#dcf7e9; border-radius:80px; padding:2.5rem; border:3px solid #7fc9ad;">
+        <i class="fas fa-handshake" style="font-size:4rem; color:#1d735b; float:left; margin-right:1.5rem;"></i>
+        <p style="font-size:1.8rem;"><strong>Operating with Sacred Trust (Amanah)</strong></p>
+        <p style="font-size:1.3rem;">We operate as a registered trust under a structured, ethical framework. Our governance is built on accountability and the sacred responsibility we hold towards our community and supporters.</p>
+        <ul style="margin-top:1.5rem; list-style:none; columns:2; font-size:1.3rem;">
+          <li><i class="fas fa-check-circle" style="color:#166b52;"></i> Structured governance, clear roles</li>
+          <li><i class="fas fa-check-circle" style="color:#166b52;"></i> Financial integrity, annual public audits</li>
+          <li><i class="fas fa-check-circle" style="color:#166b52;"></i> Transparent reporting on activities & funds</li>
+          <li><i class="fas fa-check-circle" style="color:#166b52;"></i> Volunteer-driven, every resource a sacred trust</li>
+        </ul>
+      </div>
+      <!-- extra teaser -->
+      <div style="background:#b1ead4; border-radius:70px; padding:2rem; margin:2rem 0; border:4px dotted #348f71;">
+        <p style="font-size:1.8rem;"><i class="fas fa-file-invoice"></i> Audited reports available — because Amanah means absolute integrity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOIN THE MISSION (PAGE 6) enriched -->
+  <section id="join">
+    <div class="container">
+      <h2>🤝 Be The Light · Join The Mission</h2>
+      <p style="font-size:1.8rem;">Be a Part of This Sacred Journey</p>
+      <div class="join-cards">
+        <div class="join-card"><i class="fas fa-clock"></i><h3>Volunteer</h3> your time & skill – event org, logistics, outreach</div>
+        <div class="join-card"><i class="fas fa-handshake"></i><h3>Partner</h3> collaborate for larger social good</div>
+        <div class="join-card"><i class="fas fa-share-alt"></i><h3>Participate & spread</h3> strengthen community, share the message</div>
+        <div class="join-card"><i class="fas fa-donate"></i><h3>Contribute generously</h3> fuels langar, clinic, scholarships, relief</div>
+      </div>
+      <div style="background: #b1ead4; border-radius: 70px; padding:2rem 3rem; margin:2rem 0; border:4px dotted #348f71;">
+        <p style="font-size:2rem;"><i class="fas fa-quote-left"></i> Every morsel shared = salute to Fatima's generosity. Every act of justice follows Ali's path. Every step walks with Hussain.</p>
+      </div>
+      <!-- final reflection from brief -->
+      <div class="insight-box" style="background:#e0f7e9;">
+        <p style="font-size:1.5rem;">“Here, every morsel of food shared is a salute to Fatima's generosity. Every act of justice is a following of Ali's path. Every step taken in service walks in the footsteps of Hussain.”</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY (PAGE 7) kept same playful style -->
+  <section id="gallery">
+    <div class="container">
+      <h2>📸 Gallery · Soul Glimpses</h2>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem;">
+        <div style="background:#a6dfc9; border-radius: 80px 20px 80px 20px; height:180px; display:flex; align-items:center; justify-content:center; font-size:2rem;">🕌 majlis</div>
+        <div style="background:#bbebd6; border-radius: 20px 80px 20px 80px; height:180px; display:flex; align-items:center; justify-content:center; font-size:2rem;">🍛 langar</div>
+        <div style="background:#a6dfc9; border-radius: 80px 20px 80px 20px; height:180px; display:flex; align-items:center; justify-content:center; font-size:2rem;">🫂 iftar</div>
+        <div style="background:#bbebd6; border-radius: 20px 80px 20px 80px; height:180px; display:flex; align-items:center; justify-content:center; font-size:2rem;">🌿 plantation</div>
+        <div style="background:#a6dfc9; border-radius: 80px 20px 80px 20px; height:180px; display:flex; align-items:center; justify-content:center; font-size:2rem;">📖 dars</div>
+        <div style="background:#bbebd6; border-radius: 20px 80px 20px 80px; height:180px; display:flex; align-items:center; justify-content:center; font-size:2rem;">💚 medical camp</div>
+      </div>
+    </div>
+  </section>
+
+<!-- SHIA ISLAMIC CALENDAR (NEW SECTION) -->
+  <section id="calendar">
+    <div class="container">
+      <h2>📅 Shia Islamic Calendar</h2>
+      <p style="font-size:1.8rem; margin-bottom:1.5rem;">Stay connected with important dates and events</p>
+      
+      <div class="calendar-container">
+        <div class="calendar-header">
+          <i class="fas fa-calendar-alt"></i>
+          <h3>Shia Islamic Calendar 2025-2026</h3>
+        </div>
+        <iframe 
+          src="https://shia-calendar.com/" 
+          title="Shia Islamic Calendar"
+          allowfullscreen="true"
+          loading="lazy">
+        </iframe>
+        <div style="text-align:center; margin-top:1rem;">
+          <a href="https://shia-calendar.com/" target="_blank" class="calendar-link-btn">
+            <i class="fas fa-external-link-alt"></i> Open Calendar in New Tab
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT (PAGE 8) full details with GOOGLE MAPS ADDED -->
+  <section id="contact">
+    <div class="container">
+      <h2>📞 Connect · Reach Out</h2>
+      <div class="contact-fun">
+        <div><i class="fas fa-map-pin"></i> Hazaribagh, Jharkhand</div>
+        <div><i class="fas fa-phone-alt"></i> 9931185236 / 8092111348</div>
+        <div><i class="fas fa-envelope"></i> darbarpanjatanpaak@gmail.com</div>
+        <a href="https://www.facebook.com/darbarepanjatanpaak/"target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/darbare_panjatan_paak/"target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://chat.whatsapp.com/Htuy0XQ5I2W1PcHGfuSYS7"target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p style="margin:2rem 0; font-size:2rem;">★ join the darbar family ★</p>
+      
+      <!-- GOOGLE MAPS IMPLEMENTATION (ADDED WITHOUT CHANGING ANYTHING ELSE) -->
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Darbar-e-Panjatan+Paak+Trust+Hazaribagh+Jharkhand+India" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+      
+      <!-- Alternative direct link that works without API key -->
+      <div style="text-align:center; margin-top:1rem;">
+        <a href="https://www.google.com/maps/search/?api=1&query=Darbar-e-Panjatan+Paak+Trust+Hazaribagh+Jharkhand" 
+           target="_blank" 
+           style="color: #1d735b; font-size: 1.3rem; text-decoration:none; display:inline-block; padding:0.5rem 1.5rem; background:#e2ffee; border-radius:60px;">
+           <i class="fas fa-external-link-alt"></i> Open in Google Maps
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Darbar-e-Panjatan Paak Trust, Hazaribagh. All Rights Reserved.</p>
+    <p><i>“A Sanctuary of Light • A Movement of Love • Service in the Name of the Holy Five”</i></p>
+    <p style="font-size:1.2rem;margin-bottom: 2rem;">This Darbar is not a destination; it is a journey of the soul towards the Divine.</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/darbarepanjatanpaak/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/darbare_panjatan_paak/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@darbar-e-panjatanpaak3209" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://chat.whatsapp.com/Htuy0XQ5I2W1PcHGfuSYS7" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+  </body>
+  </html>
